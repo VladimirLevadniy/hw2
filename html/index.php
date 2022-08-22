@@ -4,26 +4,18 @@ require ('../src/func.php');
 echo task1([1,2,3]);
 echo '<br>';
 
-echo task2('/', 25, 6);
+echo task2('/', 12, 1);
 echo '<br>';
 
-echo task3(10, 10);
+echo task3(4, 5);
 echo '<br>';
+echo task4();
 
-date_default_timezone_set('Europe/Moscow');
-echo date('d.m.H.i');
-echo '<br>';
-echo strtotime('22.08.2022 00:00:00');
 
 
 echo '<br>';
 echo '<br>';
-$string = 'Карл у Клары уКрал Кораллы';
-echo str_replace('К', '', $string);
-echo '<br>';
-
-$string = 'Две бутылки лимонада';
-echo str_replace('Две', 'Три', $string);
+echo task5();
 
 echo '<br>';
 file_put_contents('text.txt', 'Hello again!');
